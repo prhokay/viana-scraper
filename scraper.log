@@ -1,0 +1,91 @@
+2026-03-17 15:58:32 | INFO     | deduplicator | Dedup: 3 in → 3 out (removed 0 duplicates)
+2026-03-17 15:59:02 | INFO     | deduplicator | Dedup: 3 in -> 2 out (removed 1 duplicates)
+2026-03-17 15:59:48 | INFO     | storage | SQLite: saved 5 events (5 new)
+2026-03-17 15:59:48 | INFO     | storage | SQLite: saved 1 events (0 new)
+2026-03-17 16:00:10 | INFO     | storage | SQLite: saved 5 events (5 new)
+2026-03-17 16:00:39 | INFO     | storage | SQLite: saved 6 events (6 new)
+2026-03-17 16:00:57 | INFO     | scraper.bandsintown | Starting scraper: bandsintown
+2026-03-17 16:00:58 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/events/search: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/events/search?app_id=openclaw_events&location=Viana+do+Castelo%2C+PT&radius=50&date=upcoming&per_page=100
+2026-03-17 16:00:58 | WARNING  | scraper.bandsintown | Bandsintown returned no data for location: Viana do Castelo, PT
+2026-03-17 16:00:58 | INFO     | scraper.bandsintown | Scraped 0 events from bandsintown
+2026-03-17 16:01:03 | INFO     | scraper.viralagenda | Starting scraper: viralagenda
+2026-03-17 16:01:07 | WARNING  | scraper.viralagenda | Connection error for https://www.viragenda.pt/agenda/viana-do-castelo: HTTPSConnectionPool(host='www.viragenda.pt', port=443): Max retries exceeded with url: /agenda/viana-do-castelo (Caused by NameResolutionError("HTTPSConnection(host='www.viragenda.pt', port=443): Failed to resolve 'www.viragenda.pt' ([Errno 11001] getaddrinfo failed)"))
+2026-03-17 16:01:10 | WARNING  | scraper.viralagenda | Connection error for https://www.viragenda.pt/agenda/viana-do-castelo/musica: HTTPSConnectionPool(host='www.viragenda.pt', port=443): Max retries exceeded with url: /agenda/viana-do-castelo/musica (Caused by NameResolutionError("HTTPSConnection(host='www.viragenda.pt', port=443): Failed to resolve 'www.viragenda.pt' ([Errno 11001] getaddrinfo failed)"))
+2026-03-17 16:01:13 | WARNING  | scraper.viralagenda | Connection error for https://www.viragenda.pt/agenda/viana-do-castelo/desporto: HTTPSConnectionPool(host='www.viragenda.pt', port=443): Max retries exceeded with url: /agenda/viana-do-castelo/desporto (Caused by NameResolutionError("HTTPSConnection(host='www.viragenda.pt', port=443): Failed to resolve 'www.viragenda.pt' ([Errno 11001] getaddrinfo failed)"))
+2026-03-17 16:01:16 | WARNING  | scraper.viralagenda | Connection error for https://www.viragenda.pt/agenda/viana-do-castelo/corrida: HTTPSConnectionPool(host='www.viragenda.pt', port=443): Max retries exceeded with url: /agenda/viana-do-castelo/corrida (Caused by NameResolutionError("HTTPSConnection(host='www.viragenda.pt', port=443): Failed to resolve 'www.viragenda.pt' ([Errno 11001] getaddrinfo failed)"))
+2026-03-17 16:01:19 | WARNING  | scraper.viralagenda | Connection error for https://www.viragenda.pt/agenda/viana-do-castelo/festival: HTTPSConnectionPool(host='www.viragenda.pt', port=443): Max retries exceeded with url: /agenda/viana-do-castelo/festival (Caused by NameResolutionError("HTTPSConnection(host='www.viragenda.pt', port=443): Failed to resolve 'www.viragenda.pt' ([Errno 11001] getaddrinfo failed)"))
+2026-03-17 16:01:19 | INFO     | scraper.viralagenda | Scraped 0 events from viralagenda
+2026-03-17 16:04:32 | INFO     | scraper.viralagenda | Starting scraper: viralagenda
+2026-03-17 16:04:35 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo?page=2
+2026-03-17 16:04:37 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/concerts?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/concerts?page=2
+2026-03-17 16:04:39 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/sports?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/sports?page=2
+2026-03-17 16:04:42 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/festivals?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/festivals?page=2
+2026-03-17 16:04:42 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/music: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/music
+2026-03-17 16:04:44 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/tradition?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/tradition?page=2
+2026-03-17 16:04:45 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/culture: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/culture
+2026-03-17 16:04:45 | INFO     | scraper.viralagenda | Scraped 108 events from viralagenda
+2026-03-17 16:06:33 | INFO     | scraper.viralagenda | Starting scraper: viralagenda
+2026-03-17 16:06:36 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo?page=2
+2026-03-17 16:06:38 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/concerts?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/concerts?page=2
+2026-03-17 16:06:40 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/sports?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/sports?page=2
+2026-03-17 16:06:42 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/festivals?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/festivals?page=2
+2026-03-17 16:06:42 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/music: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/music
+2026-03-17 16:06:45 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/tradition?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/tradition?page=2
+2026-03-17 16:06:45 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/culture: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/culture
+2026-03-17 16:06:45 | INFO     | scraper.viralagenda | Scraped 108 events from viralagenda
+2026-03-17 16:08:01 | INFO     | scraper.viralagenda | Starting scraper: viralagenda
+2026-03-17 16:08:04 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo?page=2
+2026-03-17 16:08:06 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/concerts?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/concerts?page=2
+2026-03-17 16:08:08 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/sports?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/sports?page=2
+2026-03-17 16:08:09 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/festivals?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/festivals?page=2
+2026-03-17 16:08:11 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/tradition?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/tradition?page=2
+2026-03-17 16:08:13 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/cinema-video?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/cinema-video?page=2
+2026-03-17 16:08:15 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/literature?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/literature?page=2
+2026-03-17 16:08:17 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/meetings?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/meetings?page=2
+2026-03-17 16:08:17 | INFO     | scraper.viralagenda | Scraped 172 events from viralagenda
+2026-03-17 16:08:36 | INFO     | scraper.viralagenda | Starting scraper: viralagenda
+2026-03-17 16:08:38 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo?page=2
+2026-03-17 16:08:40 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/concerts?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/concerts?page=2
+2026-03-17 16:08:43 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/sports?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/sports?page=2
+2026-03-17 16:08:45 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/festivals?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/festivals?page=2
+2026-03-17 16:08:47 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/tradition?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/tradition?page=2
+2026-03-17 16:08:49 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/cinema-video?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/cinema-video?page=2
+2026-03-17 16:08:51 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/literature?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/literature?page=2
+2026-03-17 16:08:53 | WARNING  | scraper.viralagenda | HTTP error for https://www.viralagenda.com/pt/viana-do-castelo/meetings?page=2: 404 Client Error: Not Found for url: https://www.viralagenda.com/pt/viana-do-castelo/meetings?page=2
+2026-03-17 16:08:53 | INFO     | scraper.viralagenda | Scraped 172 events from viralagenda
+2026-03-17 16:08:53 | INFO     | event_service | Collected 172 events from viralagenda
+2026-03-17 16:08:53 | INFO     | scraper.aquiha | Starting scraper: aquiha
+2026-03-17 16:08:58 | WARNING  | scraper.aquiha | HTTP error for https://www.aquiha.pt/viana-do-castelo/musica: 404 Client Error: Not Found for url: https://aquiha.pt/viana-do-castelo/musica
+2026-03-17 16:09:00 | WARNING  | scraper.aquiha | HTTP error for https://www.aquiha.pt/viana-do-castelo/desporto-e-aventura: 404 Client Error: Not Found for url: https://aquiha.pt/viana-do-castelo/desporto-e-aventura
+2026-03-17 16:09:01 | WARNING  | scraper.aquiha | HTTP error for https://www.aquiha.pt/viana-do-castelo/festivais: 404 Client Error: Not Found for url: https://aquiha.pt/viana-do-castelo/festivais
+2026-03-17 16:09:03 | WARNING  | scraper.aquiha | HTTP error for https://www.aquiha.pt/viana-do-castelo/teatro-e-cinema: 404 Client Error: Not Found for url: https://aquiha.pt/viana-do-castelo/teatro-e-cinema
+2026-03-17 16:09:03 | INFO     | scraper.aquiha | Scraped 0 events from aquiha
+2026-03-17 16:09:03 | INFO     | event_service | Collected 0 events from aquiha
+2026-03-17 16:09:03 | INFO     | scraper.eventbrite | Starting scraper: eventbrite
+2026-03-17 16:09:03 | WARNING  | scraper.eventbrite | EVENTBRITE_API_KEY not set — Eventbrite scraper disabled. Get a key at https://www.eventbrite.com/platform/api
+2026-03-17 16:09:03 | INFO     | scraper.eventbrite | Scraped 0 events from eventbrite
+2026-03-17 16:09:03 | INFO     | event_service | Collected 0 events from eventbrite
+2026-03-17 16:09:03 | INFO     | scraper.bandsintown | Starting scraper: bandsintown
+2026-03-17 16:09:04 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Dead%20Combo/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Dead%20Combo/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:04 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Ornatos%20Violeta/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Ornatos%20Violeta/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:04 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Xutos%20%26%20Pontapés/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Xutos%20%26%20Pontap%C3%A9s/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:04 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Deolinda/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Deolinda/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:04 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Ana%20Moura/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Ana%20Moura/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:05 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Mariza/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Mariza/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:05 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Salvador%20Sobral/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Salvador%20Sobral/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:05 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Buraka%20Som%20Sistema/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Buraka%20Som%20Sistema/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:06 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Richie%20Campbell/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Richie%20Campbell/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:06 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Paulo%20de%20Carvalho/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Paulo%20de%20Carvalho/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:06 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Moonspell/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Moonspell/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:07 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Mind%20da%20Gap/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Mind%20da%20Gap/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:07 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/GNR/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/GNR/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:07 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/Primitive%20Reason/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/Primitive%20Reason/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:07 | WARNING  | scraper.bandsintown | HTTP error for https://rest.bandsintown.com/artists/HMB/events: 403 Client Error: Forbidden for url: https://rest.bandsintown.com/artists/HMB/events?app_id=openclaw_events&date=upcoming
+2026-03-17 16:09:07 | INFO     | scraper.bandsintown | Bandsintown: 0 total events before location filter
+2026-03-17 16:09:07 | INFO     | scraper.bandsintown | Bandsintown: 0 events after location filter
+2026-03-17 16:09:07 | INFO     | scraper.bandsintown | Scraped 0 events from bandsintown
+2026-03-17 16:09:07 | INFO     | event_service | Collected 0 events from bandsintown
+2026-03-17 16:09:07 | INFO     | deduplicator | Dedup: 172 in -> 171 out (removed 1 duplicates)
+2026-03-17 16:09:07 | INFO     | event_service | Total after dedup: 171 events
+2026-03-17 16:09:07 | INFO     | storage | SQLite: saved 171 events (171 new)
+2026-03-17 16:09:26 | INFO     | storage | Exported 34 events to test_output.json

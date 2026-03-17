@@ -1,0 +1,43 @@
+# ============================================================
+# Requirements for Events Scraper Module
+# Python 3.11+
+# ============================================================
+
+# Core HTTP & HTML scraping
+requests>=2.31.0
+urllib3>=2.0.0
+beautifulsoup4>=4.12.0
+lxml>=5.1.0               # fast HTML parser for BeautifulSoup
+
+# Data models & validation
+pydantic>=2.6.0
+pydantic-settings>=2.2.0  # for BaseSettings / .env loading
+
+# Date parsing
+dateparser>=1.2.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# ---- Optional: Playwright (only if JS rendering needed) ----
+# playwright>=1.42.0
+# After install: playwright install chromium
+
+# ---- Optional: FastAPI microservice mode ----
+# fastapi>=0.110.0
+# uvicorn[standard]>=0.29.0
+
+# ---- Optional: async support ----
+# httpx>=0.27.0             # async HTTP (drop-in for requests)
+# aiofiles>=23.2.1
+
+# ---- Optional: Telegram notifications ----
+# python-telegram-bot>=21.0
+# aiogram>=3.4.1            # alternative async Telegram bot framework
+
+# ---- Optional: Postgres migration ----
+# psycopg2-binary>=2.9.9
+# asyncpg>=0.29.0           # async Postgres
+
+# ---- Optional: job scheduling ----
+# APScheduler>=3.10.0       # cron-like scheduler inside Python process
